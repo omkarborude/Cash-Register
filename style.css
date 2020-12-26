@@ -1,0 +1,26 @@
+.main{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+
+
+.styled-table {
+    /* border-collapse: collapse; */
+    margin: auto;
+    padding: 20px;
+    font-size: larger;
+    border-radius: 5px;
+    font-weight: 500;
+    min-width: 350px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    /* border-radius: 2rem; */
+}
