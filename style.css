@@ -1,6 +1,12 @@
 
 body{
     background-image: url(undraw_transfer_money_rywa.svg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
 }    
 .main{
     text-align: center;
