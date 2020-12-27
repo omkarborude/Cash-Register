@@ -152,4 +152,11 @@ body{
         background-repeat: no-repeat;
    
 }
+    .noOfNotes{
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+}
 
