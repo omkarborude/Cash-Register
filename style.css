@@ -10,14 +10,50 @@ body{
     border-radius: 10px;
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
 }
+.conect{
+    margin-right: -20px;
+    padding: 10px;
+    width: 50px;
+    align-content: center;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: right;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.09);
+    
+}
+.conect:hover{
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.fab{
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    color: deepskyblue;
+}
+.fa-linkedin:hover{
+    color: blue;
+}
+.fa-instagram:hover{
+    color: red;
+}
+
 .screen{
     padding: 10px;
     width: 50%;
     border-radius: 5px;
     margin: auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-bottom: 20px;
 }
+
 #paid-input{
     border-radius: 10px;
     padding: 5px;
@@ -96,12 +132,7 @@ body{
     font-weight: 700;
     color: orangered;
 }
-.noOfNotes:nth-child(even){
-    color: black;
-    font-size: 20px;
-    font-weight: 700;
-    
-}
+
 .noOfNotes{
     color: white;
     font-size: 20px;
