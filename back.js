@@ -8,6 +8,7 @@ var notearray = ['500','100','20','10','5','1'];
 var cashamount;
 var billamount;
 var totalchange;
+
 //getting value of input
 cash.addEventListener("change",function(){
     cashamount = cash.value;
