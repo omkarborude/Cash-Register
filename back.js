@@ -9,6 +9,7 @@ var cashamount;
 var billamount;
 var totalchange;
 
+
 //getting value of input
 cash.addEventListener("change",function(){
     cashamount = cash.value;
